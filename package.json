@@ -1,1 +1,35 @@
-
+{
+  "name": "markov",
+  "version": "0.0.1",
+  "description": "NodeJS and (optionally) MongoDB n-order Markov chains",
+  "main": "./lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "del": "^0.1.1",
+    "gulp": "^3.8.5",
+    "gulp-browserify": "^0.5.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-uglify": "^0.3.1",
+    "lodash": "^2.4.1"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MontyGoose/markov.git"
+  },
+  "keywords": [
+    "markov",
+    "chains",
+    "n-order"
+  ],
+  "author": "Andy Parry",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/MontyGoose/markov/issues"
+  },
+  "homepage": "https://github.com/MontyGoose/markov"
+}
