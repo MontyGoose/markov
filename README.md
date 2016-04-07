@@ -40,7 +40,7 @@ markov.ask({seed:"T", min:3, max:10});
 parameter|type|default|description
 ---|---|:---:|:---
 order|{integer}|2|Order of the Markov chain
-element|{string}|'word'|Type of elements in chain - either word, sentances, other
+element|{string}|'word'|Type of elements in chain - either word or sentence
 
 ####ask()
 parameter|type|default|description
